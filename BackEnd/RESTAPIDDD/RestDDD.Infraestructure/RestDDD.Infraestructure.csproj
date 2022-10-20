@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CrossCutting\Intercafes\**" />
+    <Compile Remove="CrossCutting\Mapper\**" />
+    <EmbeddedResource Remove="CrossCutting\Intercafes\**" />
+    <EmbeddedResource Remove="CrossCutting\Mapper\**" />
+    <None Remove="CrossCutting\Intercafes\**" />
+    <None Remove="CrossCutting\Mapper\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestDDD.Application\RestDDD.Application.csproj" />
+    <ProjectReference Include="..\RestDDD.Domain.Core\RestDDD.Domain.Core.csproj" />
+    <ProjectReference Include="..\RestDDD.Domain.Services\RestDDD.Domain.Services.csproj" />
+    <ProjectReference Include="..\RestDDD.Domain\RestDDD.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

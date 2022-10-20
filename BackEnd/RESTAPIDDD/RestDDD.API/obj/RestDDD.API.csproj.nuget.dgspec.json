@@ -1,0 +1,463 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.API\\RestDDD.API.csproj": {}
+  },
+  "projects": {
+    "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.API\\RestDDD.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.API\\RestDDD.API.csproj",
+        "projectName": "RestDDD.API",
+        "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.API\\RestDDD.API.csproj",
+        "packagesPath": "C:\\Users\\Junio\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Junio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Infraestructure\\RestDDD.Infraestructure.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Infraestructure\\RestDDD.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Application\\RestDDD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Application\\RestDDD.Application.csproj",
+        "projectName": "RestDDD.Application",
+        "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Application\\RestDDD.Application.csproj",
+        "packagesPath": "C:\\Users\\Junio\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Junio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj"
+              },
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj",
+        "projectName": "RestDDD.Domain.Core",
+        "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Junio\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Junio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Services\\RestDDD.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Services\\RestDDD.Domain.Services.csproj",
+        "projectName": "RestDDD.Domain.Services",
+        "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Services\\RestDDD.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\Junio\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Junio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj",
+        "projectName": "RestDDD.Domain",
+        "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj",
+        "packagesPath": "C:\\Users\\Junio\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Junio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Infraestructure\\RestDDD.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Infraestructure\\RestDDD.Infraestructure.csproj",
+        "projectName": "RestDDD.Infraestructure",
+        "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Infraestructure\\RestDDD.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Junio\\.nuget\\packages\\",
+        "outputPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Junio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Application\\RestDDD.Application.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Application\\RestDDD.Application.csproj"
+              },
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Core\\RestDDD.Domain.Core.csproj"
+              },
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Services\\RestDDD.Domain.Services.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain.Services\\RestDDD.Domain.Services.csproj"
+              },
+              "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj": {
+                "projectPath": "D:\\Projetos\\ASPCore\\prj_teste_funcionando_1\\prj_teste\\BackEnd\\RESTAPIDDD\\RestDDD.Domain\\RestDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

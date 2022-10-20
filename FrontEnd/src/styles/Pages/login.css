@@ -1,0 +1,65 @@
+/* Página de Login */
+#page-login {
+    width: 100vw;
+    background: linear-gradient(329.54deg, #5e5e5e 0%, #000707 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-Login .content-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 100%;
+    max-height: 600px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(../../images/personas.png) no-repeat center;
+    background-size: inherit;
+    background-size: 80%;
+}
+
+#page-Login .content-wrapper main {
+    display: flex;
+    margin-top: 300px;
+}
+
+#page-Login .content-wrapper main h1 {
+    max-width: 50%;
+    padding-left: 15px;
+    font-size: 60px;
+    font-weight: 900px;
+    line-height: 70px;
+    align-items: left;
+}
+
+#page-Login .content-wrapper main p {
+    max-width: 50%;
+    padding-right: 15px;
+    margin-top: 40px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+#text {
+    width: 50%;
+    float: right;
+    padding-top: 50px;
+}
+
+#logo {
+    float: left;
+    width: 50%;
+    height: 200px;
+}
+
+#logo img {
+    float: right;
+}
+
+.register {
+    text-decoration: none;
+}

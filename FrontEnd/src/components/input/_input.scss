@@ -1,0 +1,50 @@
+
+label.input {
+    display: block;
+    color: #6a7d86;
+    background-color: #F5F8FA;
+    border: 1px solid #D3E2E5;
+    border-radius: 15px;;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: none;
+    cursor: text;
+    flex-basis: 0;
+    flex-grow: 1;
+    transition: 0.1s all ease-in-out;
+
+    input, textarea {
+        display: block;
+        border: 0px;
+        box-shadow: none;
+        background: transparent;
+        outline: 0;
+        width: 100%;
+        height: auto;
+        padding: 7px;
+        color: #5C8599;
+    }
+
+    &.focus {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        background: #e7e7e7;
+        color: #48545a;
+        transition: all 0.5s
+    }
+    
+    &.disabled {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        background: #d3d3d3;
+    }
+    
+    > span {
+        padding: 5px 7px 0 7px;
+    }
+}
+.flex-1{
+    //background-color: red;
+    //size: '200';
+    margin-left: -18px;
+    display: unset !important;
+}

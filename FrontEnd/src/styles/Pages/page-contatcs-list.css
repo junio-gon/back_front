@@ -1,0 +1,124 @@
+/* Páginas Gerais */
+#page-contacts {
+  display: flex;
+}
+
+#page-contacts main {
+  flex: 1;
+}
+
+form.page-contatcs-form-list {
+  width: 1000px;
+  margin-left: 250px;
+  background: #FFFFFF;
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+  padding: 30px 40px;
+  overflow: hidden;
+}
+
+form.page-contatcs-form-list fieldset {
+  border: 0;
+}
+
+form.page-contatcs-form-list .leaflet-container {
+  margin-bottom:  40px;
+  border:  1px solid;
+  border-radius: 20px;
+}
+
+form.page-contatcs-form-list fieldset + fieldset {
+  margin-top: 80px;
+}
+
+form.page-contatcs-form-list fieldset legend {
+  width: 100%;
+  font-size: 32px;
+  line-height: 34px;
+  color: #5C8599;
+  font-weight: 700;
+  border-bottom: 1px solid #D3E2E5;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+}
+
+form.page-contatcs-form-list table {
+  border-collapse: collapse;
+  background: #c9fce2;
+}
+
+form.page-contatcs-form-list thead tr {
+  background-color: #02884381;
+  color: black;
+  text-align: center;
+  height: 40px;
+}
+
+form.page-contatcs-form-list thead tr th.id{
+  width: 30px;
+}
+
+form.page-contatcs-form-list thead tr th.nome{
+  width: 350px;
+  max-width: 350px;
+}
+
+form.page-contatcs-form-list thead tr th.nascimento{
+  width: 110px;
+}
+
+form.page-contatcs-form-list thead tr th.email{
+  width: 300px;
+}
+
+form.page-contatcs-form-list thead tr th.acoes{
+  width: 120px;
+}
+
+form.page-contatcs-form-list tbody tr {
+  height: 40px;
+  color: black;
+  text-align: left;
+}
+
+form.page-contatcs-form-list tbody tr:hover {
+  transition: 0.2s;
+  background-color: #00ff7ba6;
+}
+
+form.page-contatcs-form-list tbody tr td {
+  padding-left: 5px;
+}
+
+#delete-contact{
+  margin-left: 10px;
+  width: 45px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  background-color: #eb8674;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+#delete-contact:hover{
+  border-radius: 20px;
+  background-color: #811100;
+  opacity: 1;
+}
+
+#edit-contact{
+  width: 45px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+  background-color: #7486eb;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+
+#edit-contact:hover{
+  border-radius: 20px;
+  background-color: #03188b;
+  opacity: 1;
+}
